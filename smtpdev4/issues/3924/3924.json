@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "This has been fixed.",
+    "ClosedDate": "2010-05-11T14:20:04.35-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A message which uses encoded-word mechanism for Subject is not correctly shown in the listbox.\n \nA subject like this is displayed:\n    =?utf-8?B?T3JkZXIgIzEyMTU2OTM5IGNoZWNrb3V0?=\n \nI would like to see the unescaped text:\n    Order #12156939 checkout",
+    "LastUpdatedDate": "2013-05-16T04:42:25.46-07:00",
+    "PlannedForRelease": "smtp4dev 2.0",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-01-25T04:09:34.67-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Message subject is not displayed correctly (=?utf-8 not supported)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 3924
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This issue may be a bug in SharpMimeTools.\r\n\r\nThere is an easy solution: in the class \"Rnwood.Smtp4dev.MessageViewModel\", change the property Subject:\r\n\r\n        public string Subject\r\n        {\r\n            get { return SharpMimeTools.rfc2047decode(Parts.Header.Subject); }\r\n        }\r\n",
+      "PostedDate": "2010-01-27T03:29:50.76-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi thanks for the report.\r\nIt looks like the latest version of SharpMimeTools also fixes this issue. I will upgrade the version used in the next release and test that this works correctly.",
+      "PostedDate": "2010-02-08T05:26:35.51-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-02-08T05:27:02.45-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-05-07T11:08:44.2-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-05-11T14:20:04.35-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:12.75-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:25.46-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

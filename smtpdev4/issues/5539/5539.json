@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-09-10T13:56:40.41-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "\"Server failed: An attempt was made to access a asocket in a way forbidden by its access permissions\".\n \nUninstalled and reinstalled.",
+    "LastUpdatedDate": "2013-05-16T04:42:24.077-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-09-03T09:51:52.9-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Server Failed on Windows 7",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5539
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2018,
+      "FileName": "9-3-2010 12-51-32 PM.png",
+      "DownloadUrl": ".\\2018"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "This message would appear to indicate that the port you have selected in the options screen is already in use by another application.\r\nTry change the port number in the options or stop/uninstall/reconfigure the other application.",
+      "PostedDate": "2010-09-10T13:56:11.32-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-09-10T13:56:40.41-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:11.22-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:24.077-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

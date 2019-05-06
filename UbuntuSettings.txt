@@ -1,0 +1,26 @@
+animesh@animesh-Inspiron-3521:~$ sudo service mysql stop
+animesh@animesh-Inspiron-3521:~$ sudo service mysql start
+password:root if Prompted it will open java wala database
+
+//************************************************************
+Startin xampp wala database
+animesh@animesh-Inspiron-3521:~$ sudo service mysql stop //Closing Xampp
+animesh@animesh-Inspiron-3521:~$ sudo /opt/lampp/xampp start
+Starting XAMPP for Linux 7.1.28-0...
+XAMPP: Starting Apache.../opt/lampp/share/xampp/xampplib: line 22: netstat: command not found
+/opt/lampp/share/xampp/xampplib: line 22: netstat: command not found
+ok.
+XAMPP: Starting MySQL.../opt/lampp/share/xampp/xampplib: line 22: netstat: command not found
+ok.
+XAMPP: Starting ProFTPD.../opt/lampp/share/xampp/xampplib: line 22: netstat: command not found
+ok.
+
+//And Check localhost 
+
+Repeat Everytime you open the PC
+//*****************************************************
+ngrok http 80  :Make Net is open
+sudo cp /home/animesh/Downloads/ngrok-stable-linux-amd64/ngrok /bin  --Advait Environment Variable Tech
+chmod +a-rwx 
+
+

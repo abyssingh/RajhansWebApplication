@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The smtp4dev worked fine just fine, next time when I re-downloaded and tried to use it , it gave me error:\nOnly one usage of each socket address is normally permitted.\nEven after port from 25 to 0, the error will go but no emails are showing up in the tool. PLease help.\nSnapshot attached.",
+    "LastUpdatedDate": "2016-04-21T21:49:47.19-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2016-04-21T21:48:56.35-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Server Failed error",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 9679
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4656,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\4656"
+    },
+    {
+      "FileId": 4657,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\4657"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Please help:\nThe smtp4dev worked fine just fine, next time when I re-downloaded and tried to use it , it gave me error:\n Only one usage of each socket address is normally permitted.\n Even after port from 25 to 0, the error will go but no emails are showing up in the tool. PLease help.\n Snapshot attached.",
+      "PostedDate": "2016-04-21T21:49:29.16-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2016-04-21T21:49:46.72-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The smtp4dev worked fine just fine, next time when I re-downloaded and tried to use it , it gave me error:\n Only one usage of each socket address is normally permitted.\n Even after port from 25 to 0, the error will go but no emails are showing up in the tool. PLease help.\n Snapshot attached.",
+      "PostedDate": "2016-04-21T21:49:47.19-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

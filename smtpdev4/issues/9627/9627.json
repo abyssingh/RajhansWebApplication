@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "var sc = new SmtpClient {\n\t\t\t\tHost = \"localhost\",\n                UseDefaultCredentials = true,\n\t\t\t\tCredentials = new NetworkCredential(\"whatever\", \"andMorewhatevers\"),\n\t\t\t\tPort = 25,\n\t\t\t\tEnableSsl = true\n\t\t\t};\n\t\t\tvar mail = new MailMessage(\"tester@me.com\", \"testee@me.com\") {\n\t\t\t\tSubject = \"My subject\",\n\t\t\t\tBody = \"My body\"\n\t\t\t};\n\n\t\t\tsc.Send(mail);\n\nthis crashes latest smtp4dev with an ArgumentNullException",
+    "LastUpdatedDate": "2015-09-21T15:37:22.113-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2015-09-21T15:37:22.113-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Crashes when using credentials",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 9627
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

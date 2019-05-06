@@ -1,0 +1,215 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have created the following simple ASP.NET 4.0 application to test sending an e-mail:\n \nMailTestPage.aspx\n----------------------\n<%@ Page Language=\"C#\" Debug=\"true\" AutoEventWireup=\"true\" CodeFile=\"MailTestPage.aspx.cs\" Inherits=\"MailTestPage\" %>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head runat=\"server\">\n    <title></title>\n</head>\n<body>\n    <form id=\"form1\" runat=\"server\">\n    <div>\n    <table border=\"0\">\n    <tr>\n        <td><b>Your Email:</b></td>\n        <td><asp:TextBox runat=\"server\" ID=\"UsersEmail\" Columns=\"30\"></asp:TextBox></td>\n    </tr>\n    <tr>\n        <td><b>Subject:</b></td>\n        <td><asp:TextBox runat=\"server\" ID=\"Subject\" Columns=\"30\"></asp:TextBox></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">\n            <b>Body:</b><br />\n            <asp:TextBox runat=\"server\" ID=\"Body\" TextMode=\"MultiLine\" Columns=\"55\" Rows=\"10\"></asp:TextBox>\n        </td>\n    </tr>\n    <tr>\n        <td colspan=\"2\" align=\"center\">\n            <asp:Button runat=\"server\" ID=\"SendEmail\" Text=\"Send E-mail\" \n                onclick=\"SendEmail_Click\" />\n        </td>\n    </tr>\n</table>\n    </div>\n    </form>\n</body>\n</html>\n \n \nMailTestPage.aspx.cs\n-------------------------\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Web;\nusing System.Web.UI;\nusing System.Web.UI.WebControls;\nusing System.Net.Mail;\n \npublic partial class MailTestPage : System.Web.UI.Page\n{\n    protected void SendEmail_Click(object sender, System.EventArgs e)\n    {\n        const string ToAddress = \"emerald77@att.net\";\n        MailMessage mm = new MailMessage(UsersEmail.Text, ToAddress);\n        mm.Subject = Subject.Text;\n        mm.Body = Body.Text;\n        mm.IsBodyHtml = false;\n        SmtpClient smtp = new SmtpClient();\n        //(use the Web.config settings)\n        smtp.Send(mm);\n    }\n}\n \nweb.config\n-------------\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<configuration>\n    <system.net>\n        <mailSettings>\n            <smtp deliveryMethod=\"Network\">\n                <network host=\"localhost\" port=\"25\"/>\n            </smtp>\n        </mailSettings>\n    </system.net>\n</configuration>\n \nAfter I create the e-mail message and click the \"Send E-mail\" button, it takes about 15 seconds before smtp4dev displays the following Session log:\n \n220 localhost smtp4dev ready\nEHLO mickey\n250-Nice to meet you.\n250-8BITMIME\n250-STARTTLS\n250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS\n250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS\n250 SIZE\nMAIL FROM:<test@domain.com>\n250 Okey dokey\nRCPT TO:<emerald77@att.net>\n250 Recipient accepted\nRSET\n \nHowever, the e-mail message does not show up under the \"Messages\" tab of smtp4dev.  I'm not sure if the problem is due to pilot error or there is a bug in smtp4dev.\n \nThanks in advance for any assistance with this issue.\nBob",
+    "LastUpdatedDate": "2014-07-26T14:10:05.86-07:00",
+    "PlannedForRelease": "smtp4dev 2.0.9",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2011-01-11T19:23:08-08:00",
+    "Status": {
+      "Name": "Resolved",
+      "Id": 7
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Session log is created but no corresponding Message is received",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 6080
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'm seeing exactly the same behaviour whilst trying to send email from Adobe Coldfusion 9.0.1\r\nWhat appears to be a partial session log is created but no message.\r\n\r\n220 localhost smtp4dev ready\r\nEHLO MC03\r\n250-Nice to meet you.\r\n250-8BITMIME\r\n250 SIZE\r\nMAIL FROM:<server@localhost.dev>\r\n250 Okey dokey\r\nRCPT TO:<test@localhost.dev>\r\n250 Recipient accepted\r\nRSET\r\n",
+      "PostedDate": "2011-05-10T01:47:51.933-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-10T01:48:04.99-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Also, i should add, I'm running Win 7 64b ultimate ",
+      "PostedDate": "2011-05-10T01:50:16.707-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi, I am getting the same problem.  Here is the code snippet:\r\n\r\nvar smtpClient = new SmtpClient();\r\nvar mailMessage = new MailMessage\r\n{\r\nSubject = \"Hello world\",\r\nBody = \"Hello world\",\r\nFrom = new MailAddress(\"test@test.com\")\r\n};\r\nmailMessage.To.Add(new MailAddress(\"test@test.com\"));\r\nConsole.WriteLine(\"Sending e-mail...\");\r\nsmtpClient.Send(mailMessage);\r\nConsole.WriteLine(\"E-mail sent.\");\r\n\r\nAnd app.config:\r\n\r\n<?xml version=\"1.0\" encoding=\"utf-8\" ?>\r\n<configuration>\r\n\t<system.net>\r\n\t\t<mailSettings>\r\n\t\t\t<smtp>\r\n\t\t\t\t<network\r\n          host=\"localhost\"\r\n          port=\"25\"\r\n        />\r\n\t\t\t</smtp>\r\n\t\t</mailSettings>\r\n\t</system.net>\r\n</configuration>\r\n\r\nAfter about 30 seconds the session log appears, but no message:\r\n\r\n220 localhost smtp4dev ready\r\nEHLO phil-PC\r\n250-Nice to meet you.\r\n250-8BITMIME\r\n250-STARTTLS\r\n250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS\r\n250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS\r\n250 SIZE=9216\r\nMAIL FROM:<test@test.com>\r\n250 Okey dokey\r\nRCPT TO:<test@test.com>\r\n250 Recipient accepted\r\nRSET\r\n\r\nRob, please can you help?",
+      "PostedDate": "2011-05-12T14:03:24.1-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-28T01:42:08.717-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "ENV: Windows 7 Enterprise 32 bit\r\n\r\nExactly the same issue. Just a session and no message:\r\n\r\n220 localhost smtp4dev ready\r\nEHLO L-045144-A.SYMC.SYMANTEC.COM\r\n250-Nice to meet you.\r\n250-8BITMIME\r\n250-STARTTLS\r\n250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS\r\n250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS\r\n250 SIZE\r\nMAIL FROM:<smtp4dev@test.com>\r\n250 Okey dokey\r\nRCPT TO:<balaji_ramesh@test.com>\r\n250 Recipient accepted\r\nRSET\r\n250 Rset completed\r\nRSET\r\n250 Rset completed",
+      "PostedDate": "2011-06-28T02:11:57.25-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-20T23:04:04.56-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have the same problem running a script from PHP 5.2 on IIS 7.5 - Win 7 64b professional, that worked fine on Win XP professional virtual SMTP server.\r\nThis is the crash report:\r\n\r\nDescription:\r\nStopped working\r\n\r\nProblem signature:\r\nProblem Event Name: CLR20r3\r\nProblem Signature 01: smtp4dev.exe\r\nProblem Signature 02: 2.0.5.0\r\nProblem Signature 03: 4be9ca2f\r\nProblem Signature 04: Rnwood.SmtpServer\r\nProblem Signature 05: 2.0.5.0\r\nProblem Signature 06: 4be9ca2b\r\nProblem Signature 07: 16\r\nProblem Signature 08: 0\r\nProblem Signature 09: System.IndexOutOfRangeException\r\nOS Version: 6.1.7600.2.0.0.256.48\r\nLocale ID: 1027",
+      "PostedDate": "2011-07-21T00:13:18.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-22T00:35:46.813-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have reproduced this problem and believe this should now be fixed in the following release:\r\nhttp://smtp4dev.codeplex.com/releases/view/70460\r\n\r\nIf possible please could you confirm that this fixes your problem.",
+      "PostedDate": "2011-07-22T00:54:01.713-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have reproduced this problem and believe this should now be fixed in the following release:\r\nhttp://smtp4dev.codeplex.com/releases/view/70460\r\n\r\nIf possible please could you confirm that this fixes your problem.",
+      "PostedDate": "2011-07-22T00:54:30.407-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have reproduced this problem and believe this should now be fixed in the following release:\r\nhttp://smtp4dev.codeplex.com/releases/view/70460\r\n\r\nIf possible please could you confirm that this fixes your problem.",
+      "PostedDate": "2011-07-22T00:56:16.817-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have reproduced this problem and believe this should now be fixed in the following release:\r\nhttp://smtp4dev.codeplex.com/releases/view/70460\r\n\r\nIf possible please could you confirm that this fixes your problem.",
+      "PostedDate": "2011-07-22T00:56:35.22-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I still experience the same behavior with 2.0.06:\r\n\r\n220 localhost smtp4dev ready\r\nEHLO NEXUS\r\n250-Nice to meet you.\r\n250 8BITMIME\r\nMAIL FROM:<tc@local.com>\r\n250 Okey dokey\r\nRCPT TO:<balaji@local.com>\r\n250 Recipient accepted\r\nRSET\r\n\r\nNo message yet...",
+      "PostedDate": "2011-07-22T01:46:38.19-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Can anybody elae please confirm what balajiramesh is saying - that this bug still occurs 2.0.6?\r\nI am unable to reproduce now.",
+      "PostedDate": "2011-07-24T08:50:05.63-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "yes i'm still seeing this issue.  I uninstalled then re-installed using the 2.0.6 installer. I still get a partial session log but no email is received.  I'm running Win7 64bit if thats of any relevance\r\n\r\n",
+      "PostedDate": "2011-07-24T11:59:46.77-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for the information. I'm still unable to reproduce against 2.0.6 on Win7 32bit. I suspect that the problem is only apparent on Windows 7 64 bit and I will try reproduce on this OS as soon as I get a chance. Unfortunately I don't have access to a 64 bit Win 7 machine most of the time so this could be a few days away.\r\n\r\nIn the mean time if anybody could send me a network capture (wireshark etc) of the traffic between a client and SMTP4dev experiencing this issue then that will speed up my investigation. Since wireshark can't capture on the loopback interface, you'd have to do this between 2 machines.\r\n\r\nTo explain what the session log posted is showing. The last response apparently sent by the server is a 250 (OK) response, what should happen next is for the client to send a DATA request, but this doesn't seem to be happening. The few seconds of pause are the smtp client timeout waiting for the server to respond. Somehow either the 250 response isn't making it to the client, or the client isn't considering it to be a complete response.",
+      "PostedDate": "2011-07-25T11:50:19.377-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-25T11:50:28.607-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Please can somebody who can reproduce the problem try build 2.0.7 at the following URL:\r\nhttp://smtp4dev.codeplex.com/releases/view/70665",
+      "PostedDate": "2011-07-25T12:28:09.38-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I've now had the chance to test this on a Windows 7 64bit OS running in both a 32bit and 64bit process, and I'm unable to reproduce the problem.\r\nDoes anybody experiencing this problem have personal firewall/security software running and if possible can you try disable it temporarily and try again?",
+      "PostedDate": "2011-08-15T05:25:00.48-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Rob, Version 2.0.9 seems to have fixed the issue.  Thanks for looking at this.",
+      "PostedDate": "2011-08-15T13:05:48.227-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "can also confirm 2.0.9 works for me\r\nthanks for fixing this",
+      "PostedDate": "2011-08-15T13:51:03.127-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-23T05:11:15.53-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Still happening to me on Windows 7, version 2.0.9 and 2.1.1.0Alpha.\r\n\r\nI tried catching the packets with Fiddler - but from a different computer it worked! Only occurring when sending from the same machine as the server.\r\n\r\nI've tried-\r\n* Running server as administrator\r\n\r\nMy gut feeling is that the server is replying too quickly. Maybe adding a delay before replying might fix this.",
+      "PostedDate": "2012-04-10T01:00:50.523-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I added a few System.Threading.Thread.Sleep(1000), but still getting error messages. Oh well.",
+      "PostedDate": "2012-04-10T01:46:46.033-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This is not just an issue with smtp4dev - I've gotten the same error with DevNullSmtpServer.\r\n\r\nMy current guess is anti-virus. I have Symantec and Outlook 2010 on the machine.",
+      "PostedDate": "2012-04-10T02:22:40.72-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I was getting this same error with DevNullSmtp (a similar Java app). Whilst turning on and off a SMTP server, I got an error message from \"Symantec Email Proxy\", which pointed me to the solution-\r\n\r\nDisable SYMANTEC INTERNET EMAIL AUTO-PROTECT\r\n\r\n1. Open Symantec Endpoint Protection Manager\r\n2. Click \"Options\" for \"Virus and Spyware Protection\"\r\n3. Go to \"Internet Email Auto-Protect\" tab\r\n4. Uncheck \"Enable Internet Email Auto-Protect\"",
+      "PostedDate": "2012-04-10T02:28:29.837-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:08.697-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:21.597-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:21.723-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-14T00:31:48.567-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks, spongeboy, I have Symantec Endpoint Protection and uncheck \"Enable Internet Email Auto-Proyect\", works for me,\r\n\r\nThanks,",
+      "PostedDate": "2013-06-17T09:09:14.323-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I had the same problem, but in my environment, I do not have permission to disable Symantic Internet Email Auto-Protect.  (Lame!)\r\n\r\nHowever, an easy workaround is to change the port configuration in SMTP4DEV, so it is not listening on the standard SMTP port 25.  I changed it to a different port, and changed the port on the configuration of the application that needs to send email to use the same port.  \r\n\r\nThus, Symantec doesn't recognize this as an SMTP communication, and everything works correctly.",
+      "PostedDate": "2014-01-27T13:28:44.59-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This is still a problem for me with smtp4dev 2.0.9 on W7x64 ultimate. Tried changing to non-default port of 2500 with the same results: No actual messages, but a session item is in there as per example below...\r\n\r\n220 localhost smtp4dev ready\nEHLO COMPUTER-NAME\n250-Nice to meet you.\n250-8BITMIME\n250-STARTTLS\n250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS\n250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS\n250 SIZE=5000000\nMAIL FROM:<noreply.registration@ieminc.org>\n250 Okey dokey\nRCPT TO:<email@address.com>\n250 Recipient accepted\nDATA\n354 End message with period\n",
+      "PostedDate": "2014-07-26T14:01:34.763-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Oops -- thought I'd sanitized that log better.\nCan you remove the contents of the \"MAIL FROM\" line above? Thanks.",
+      "PostedDate": "2014-07-26T14:10:05.86-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

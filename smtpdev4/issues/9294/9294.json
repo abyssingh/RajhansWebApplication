@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When receiving a message with the following MAIL FROM verb, a 501 Parameter not recognised message is returned.\n\nMAIL FROM:<disdtesthq1@mmhs.uk> SIZE=5754 ENVID=X400-MTS-Identifier:+20[/PRMD+3dFirst+20Organizati/ADMD+3d+20/C+3dGB/;DC01-140416101643Z-98] RET=FULL\n\nI have created an extension to handle the ENVID and RET parameters, however when the verb is parsed, the ENVID parameter is read in as \"ENVID=X400-MTS-Identifier\" and the remainder handled as an additional parameter.  According to RFC 3461, ':' is a valid character for the ENVID parameter, however it is not treated as such.",
+    "LastUpdatedDate": "2016-11-24T20:15:39.087-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2014-04-17T00:08:04.47-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "501 Parameter Not Recognised",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 9294
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Updating SmtpCommand.ParseArguments() as follows will resolve the issue for the colon character being used within a parameter vaue.\r\n\r\nprivate string[] ParseArguments(string argumentsText)\n        {\n            int ltCount = 0;\n            bool colonSeparatorFound = false;\n            List<string> arguments = new List<string>();\n            StringBuilder currentArgument = new StringBuilder();\n            foreach (char character in argumentsText)\n            {\n                switch (character)\n                {\n                    case '<':\n                        ltCount++;\n                        goto default;\n                    case '>':\n                        ltCount--;\n                        goto default;\n                    case ' ':\n                    case ':':\n                        if (ltCount == 0 && !colonSeparatorFound)\n                        {\n                            arguments.Add(currentArgument.ToString());\n                            currentArgument = new StringBuilder();\n                            colonSeparatorFound = true;\n                        }\n                        else\n                        {\n                            goto default;\n                        }\n                        break;\n                    default:\n                        currentArgument.Append(character);\n                        break;\n                }\n            }\r\n\r\n            if (currentArgument.Length != 0)\n            {\n                arguments.Add(currentArgument.ToString());\n            }\n            return arguments.ToArray();\n        }",
+      "PostedDate": "2016-11-24T20:15:39.087-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

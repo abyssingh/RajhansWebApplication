@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-05-05T23:41:36.98-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Double-clicking on the smtp4dev icon opens two programs... both smtp4dev and whatever is the icon next to it (usually my antivirus software console). It's as if the event weren't getting handled by your app, and gets passed on to the next one. Make sense?\n \nNot a biggie, but slightly annoying. Love the program though!",
+    "LastUpdatedDate": "2013-05-16T04:42:22.727-07:00",
+    "PlannedForRelease": "smtp4dev 2.1 alpha 1",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-11-12T16:03:54.44-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Double-Click on System Tray",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5815
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Thanks for the report. Yes very annoying!",
+      "PostedDate": "2010-11-15T12:12:37.77-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-15T12:15:47.44-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-05T23:41:36.98-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:09.593-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:22.727-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Believe this is fixed in 2.0. Reopen if this is not the case.",
+    "ClosedDate": "2010-09-10T13:58:16.293-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "System.ComponentModel.Win32Exception: No application is associated with the specified file for this operation\n   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)\n   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)\n   at Rnwood.Smtp4dev.MainForm.ViewMessage(MessageViewModel message)\n   at Rnwood.Smtp4dev.MainForm.ViewSelectedMessages()\n   at System.Windows.Forms.Control.OnClick(EventArgs e)\n   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)\n   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)\n   at System.Windows.Forms.Control.WndProc(Message& m)\n   at System.Windows.Forms.ButtonBase.WndProc(Message& m)\n   at System.Windows.Forms.Button.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)",
+    "LastUpdatedDate": "2013-05-16T04:42:24.64-07:00",
+    "PlannedForRelease": "smtp4dev 2.0",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-07-07T23:23:23.1-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unhendeled Exception on View button click when no default mail application specified in system",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5014
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Exception encountered today in smtp4dev.exe version 2.0.9.0 on Windows Server 2008 with Visual Studio 2010.  Steps to reproduce:  1] Install on system above, 2] Write mail test in vs 2010 using System.Net.Mail (Framework 2.0) var mm = new MailMessage... then new SmtpClient(\"localhost\").Send(mm), 3] Click View button when mail message received.  Is this a configuration issue?  Here is exception: \r\n\r\nSee the end of this message for details on invoking \r\njust-in-time (JIT) debugging instead of this dialog box.\r\n\r\n************** Exception Text **************\r\nSystem.ComponentModel.Win32Exception: No application is associated with the specified file for this operation\r\n   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)\r\n   at System.Diagnostics.Process.Start()\r\n   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)\r\n   at System.Diagnostics.Process.Start(String fileName)\r\n   at Rnwood.Smtp4dev.MainForm.ViewMessage(MessageViewModel message)\r\n   at Rnwood.Smtp4dev.MainForm.ViewSelectedMessages()\r\n   at Rnwood.Smtp4dev.MainForm.viewButton_Click(Object sender, EventArgs e)\r\n   at System.Windows.Forms.Control.OnClick(EventArgs e)\r\n   at System.Windows.Forms.Button.OnClick(EventArgs e)\r\n   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)\r\n   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)\r\n   at System.Windows.Forms.Control.WndProc(Message& m)\r\n   at System.Windows.Forms.ButtonBase.WndProc(Message& m)\r\n   at System.Windows.Forms.Button.WndProc(Message& m)\r\n   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)\r\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\r\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)\r\n\r\n\r\n************** Loaded Assemblies **************\r\nmscorlib\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4214 (VistaSP2GDR.050727-4200)\r\n    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll\r\n----------------------------------------\r\nSmtp4dev\r\n    Assembly Version: 2.0.9.0\r\n    Win32 Version: 2.0.9.0\r\n    CodeBase: file:///C:/Program%20Files/smtp4dev/Smtp4dev.exe\r\n----------------------------------------\r\nSystem.Windows.Forms\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4214 (VistaSP2GDR.050727-4200)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll\r\n----------------------------------------\r\nSystem\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4215 (VistaSP2GDR.050727-4200)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\r\n----------------------------------------\r\nSystem.Drawing\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4016 (NetFxQFE.050727-4000)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll\r\n----------------------------------------\r\nSystem.Configuration\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4016 (NetFxQFE.050727-4000)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll\r\n----------------------------------------\r\nSystem.Xml\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4016 (NetFxQFE.050727-4000)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll\r\n----------------------------------------\r\nRnwood.AutoUpdate\r\n    Assembly Version: 2.0.9.0\r\n    Win32 Version: 2.0.9.0\r\n    CodeBase: file:///C:/Program%20Files/smtp4dev/Rnwood.AutoUpdate.DLL\r\n----------------------------------------\r\nSystem.Core\r\n    Assembly Version: 3.5.0.0\r\n    Win32 Version: 3.5.30729.1 built by: SP\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll\r\n----------------------------------------\r\nvjbgij4c\r\n    Assembly Version: 2.0.9.0\r\n    Win32 Version: 2.0.50727.4215 (VistaSP2GDR.050727-4200)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\r\n----------------------------------------\r\nRnwood.SmtpServer\r\n    Assembly Version: 2.0.9.0\r\n    Win32 Version: 2.0.9.0\r\n    CodeBase: file:///C:/Program%20Files/smtp4dev/Rnwood.SmtpServer.DLL\r\n----------------------------------------\r\nSharpMimeTools\r\n    Assembly Version: 0.7.3783.38082\r\n    Win32 Version: 0.7.3783.38082\r\n    CodeBase: file:///C:/Program%20Files/smtp4dev/SharpMimeTools.DLL\r\n----------------------------------------\r\nPresentationFramework\r\n    Assembly Version: 3.0.0.0\r\n    Win32 Version: 3.0.6920.4016 built by: VistaSP2GDR\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/PresentationFramework/3.0.0.0__31bf3856ad364e35/PresentationFramework.dll\r\n----------------------------------------\r\nWindowsBase\r\n    Assembly Version: 3.0.0.0\r\n    Win32 Version: 3.0.6920.4016 built by: VistaSP2GDR\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/WindowsBase/3.0.0.0__31bf3856ad364e35/WindowsBase.dll\r\n----------------------------------------\r\nPresentationCore\r\n    Assembly Version: 3.0.0.0\r\n    Win32 Version: 3.0.6920.4016 built by: VistaSP2GDR\r\n    CodeBase: file:///C:/Windows/assembly/GAC_32/PresentationCore/3.0.0.0__31bf3856ad364e35/PresentationCore.dll\r\n----------------------------------------\r\nWPFToolkit\r\n    Assembly Version: 3.5.40128.1\r\n    Win32 Version: 3.5.40619.1\r\n    CodeBase: file:///C:/Program%20Files/smtp4dev/WPFToolkit.DLL\r\n----------------------------------------\r\nPresentationFramework.Classic\r\n    Assembly Version: 3.0.0.0\r\n    Win32 Version: 3.0.6920.4000 built by: QFE\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/PresentationFramework.Classic/3.0.0.0__31bf3856ad364e35/PresentationFramework.Classic.dll\r\n----------------------------------------\r\nUIAutomationProvider\r\n    Assembly Version: 3.0.0.0\r\n    Win32 Version: 3.0.6920.4000 built by: QFE\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/UIAutomationProvider/3.0.0.0__31bf3856ad364e35/UIAutomationProvider.dll\r\n----------------------------------------\r\nUIAutomationTypes\r\n    Assembly Version: 3.0.0.0\r\n    Win32 Version: 3.0.6920.4000 built by: QFE\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/UIAutomationTypes/3.0.0.0__31bf3856ad364e35/UIAutomationTypes.dll\r\n----------------------------------------\r\nAccessibility\r\n    Assembly Version: 2.0.0.0\r\n    Win32 Version: 2.0.50727.4016 (NetFxQFE.050727-4000)\r\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/Accessibility/2.0.0.0__b03f5f7f11d50a3a/Accessibility.dll\r\n----------------------------------------\r\n\r\n************** JIT Debugging **************\r\nTo enable just-in-time (JIT) debugging, the .config file for this\r\napplication or computer (machine.config) must have the\r\njitDebugging value set in the system.windows.forms section.\r\nThe application must also be compiled with debugging\r\nenabled.\r\n\r\nFor example:\r\n\r\n<configuration>\r\n    <system.windows.forms jitDebugging=\"true\" />\r\n</configuration>\r\n\r\nWhen JIT debugging is enabled, any unhandled exception\r\nwill be sent to the JIT debugger registered on the computer\r\nrather than be handled by this dialog box.\r\n",
+      "PostedDate": "2011-10-12T09:02:41.99-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Solved by installing a viewer for *.eml files:  http://www.mitec.cz/mailview.html ",
+      "PostedDate": "2011-10-12T09:21:02.56-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:11.747-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:24.64-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

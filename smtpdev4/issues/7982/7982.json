@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "would really like to be able to see all attributes of the email \nCC/BCC \n \nBCC is the reason for me writing this, sure there are more than just CC/BCC that would be helpful.",
+    "LastUpdatedDate": "2013-02-21T17:30:05.267-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2012-05-16T13:21:57.343-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "feature request",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7982
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

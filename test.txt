@@ -1,0 +1,8 @@
+$query = "select * from ResidentialProperty where PropertyId=1";
+$result = mysqli_query($conn, $query);
+while ($row = mysqli_fetch_array($result)) {
+    $ImageUrl = 'img/' . $row["image"];
+    ?>
+            <img src="<?php echo $ImageUrl; ?>"  alt=""/>
+          <?php
+}

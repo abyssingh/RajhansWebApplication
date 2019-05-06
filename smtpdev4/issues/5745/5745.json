@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-05-09T05:38:42.467-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Feature Request: Ability to view html email",
+    "LastUpdatedDate": "2013-05-16T04:42:22.86-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-10-22T16:08:05.05-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Feature Request: Ability to view html email",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5745
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I would like the ability to view emails as html and not only plain text.\r\n\r\nThank you.",
+      "PostedDate": "2010-10-22T16:08:44.283-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "For example, I would expect to be able to click on <a href=\"...\">...</a> tags and have my default web browser open and navigate to the href url.",
+      "PostedDate": "2010-10-22T16:10:21.77-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for your request. smtp4dev uses the default application which is configured in order to \"view\" .eml files so the features of the viewer depend on what you have installed. I recommend you install Windows Live Mail or another client which is cabable of rending HTML mail.",
+      "PostedDate": "2010-11-15T12:18:49.313-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thank you.\r\n\r\nI only have Outlook 2010 installed on Windows 7 64-bit and I found this registry tweak that allows me to associate and open .eml files in Outlook.\r\n\r\nhttp://www.slipstick.com/mail1/open_eml.htm",
+      "PostedDate": "2011-01-05T19:13:10.01-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-09T05:38:42.467-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:09.927-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:22.86-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

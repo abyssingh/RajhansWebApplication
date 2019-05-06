@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "First things first - a very useful tool.\n \nFor me it would be useful to have a two pane layout with the existing main form as the left pane and the inspection form on the right.  Also à la Outlook, it would be good if new items could be appear at the top of the list.\n \nSlightly more of an ask: it would be great if it were a Visual Studio 2010 extension.\n \nThanks\n \nCrispin",
+    "LastUpdatedDate": "2013-02-21T17:30:06.84-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2011-10-27T06:43:28.74-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Application layout",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7394
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

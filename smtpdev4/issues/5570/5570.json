@@ -1,0 +1,86 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-09-10T13:28:53.17-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've tried to download this zip http://smtp4dev.codeplex.com/releases/38851/download/121466 and ESS found virus in it.",
+    "LastUpdatedDate": "2013-05-16T04:42:23.65-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-09-08T04:21:50.253-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MSIL/Injector.AN trojan found in \"binaries\" download",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5570
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2027,
+      "FileName": "Untitled.jpg",
+      "DownloadUrl": ".\\2027"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hi and thanks for the report. I'm going to ignore your rudeness!\r\n\r\nI think you are experiencing a false positive from your virus scanner. I would guess that this is because the standalone (single file) download for smtp4dev is packed with an executable packer NETZ (http://madebits.com/netz/index.php).\r\n\r\nVirusTotal which checks the file against 43 different virus scanners does not agree with your ESS scanner. You can checkout the report at the following URL (or of course upload the file yourself and try it)\r\n\r\nhttp://www.virustotal.com/file-scan/report.html?id=cae9f54c332a4c17b99f9a2e875f99425b5a06b3a85077b62a5ccf6ef4173772-1283963773\r\n\r\nAlso the ESET online scanner (http://www.eset.co.uk/ThreatCenter/OnlineScanner/) which I believe uses the same engine as ESS reports the files as clean.\r\n\r\nOf course if you still don't believe all of the above then you are welcome to build from the source code in SVN which you can check line for line since this product is open source. You can also verify the binary of the NETZ packer used by the publish.proj script against that available for download from their website.\r\n",
+      "PostedDate": "2010-09-08T11:42:55.92-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Update:\r\nRead this blog article from ESET (the authors of your AV product) which explains about packers:\r\nhttp://blog.eset.com/2008/10/27/an-introduction-to-packers\r\n\r\n...and the release notes for your AV product which mention an option called \"runtime packet protection\" which you may need to enable:\r\nhttp://kb.eset.com/esetkb/index?page=content&id=SOLN357",
+      "PostedDate": "2010-09-08T11:46:46.757-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Well, in this case, I apologize",
+      "PostedDate": "2010-09-08T23:18:15.65-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-09-08T23:19:01.793-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for removing your rudeness, apology accepted.",
+      "PostedDate": "2010-09-10T13:28:35.6-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-09-10T13:28:53.17-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:10.893-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:23.65-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

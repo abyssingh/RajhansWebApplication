@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-05-11T13:53:09.173-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "SMTP4DEV crashing on my system when inspecting received email message.\n \nWindows 7 Professional x64 English\nMicrosoft Office 2010 Beta English\n \nException text:\nSystem.Windows.Markup.XamlParseException:  Cannot find type 'Microsoft.Windows.Controls.DataGrid'. The assembly used when compiling might be different than that used when loading and the type is missing.  Error at object 'System.Windows.Controls.TabItem' in markup file 'Smtp4dev;component/messageinspector/inspectorwindow.xaml'. ---> System.ApplicationException: Cannot find type 'Microsoft.Windows.Controls.DataGrid'. The assembly used when compiling might be different than that used when loading and the type is missing.\n   at System.Windows.Markup.BamlMapTable.GetTypeFromId(Int16 id)\n   at System.Windows.Markup.BamlRecordReader.GetElementAndFlags(BamlElementStartRecord bamlElementStartRecord, Object& element, ReaderFlags& flags, Type& delayCreatedType, Int16& delayCreatedTypeId)\n   at System.Windows.Markup.BamlRecordReader.BaseReadElementStartRecord(BamlElementStartRecord bamlElementRecord)\n   at System.Windows.Markup.BamlRecordReader.ReadElementStartRecord(BamlElementStartRecord bamlElementRecord)\n   at System.Windows.Markup.BamlRecordReader.ReadRecord(BamlRecord bamlRecord)\n   --- End of inner exception stack trace ---\n   at System.Windows.Markup.XamlParseException.ThrowException(String message, Exception innerException, Int32 lineNumber, Int32 linePosition, Uri baseUri, XamlObjectIds currentXamlObjectIds, XamlObjectIds contextXamlObjectIds, Type objectType)\n   at System.Windows.Markup.XamlParseException.ThrowException(ParserContext parserContext, Int32 lineNumber, Int32 linePosition, String message, Exception innerException)\n   at System.Windows.Markup.BamlRecordReader.ReadRecord(BamlRecord bamlRecord)\n   at System.Windows.Markup.BamlRecordReader.Read(Boolean singleRecord)\n   at System.Windows.Markup.TreeBuilderBamlTranslator.ParseFragment()\n   at System.Windows.Markup.TreeBuilder.Parse()\n   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)\n   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)\n   at Rnwood.Smtp4dev.MessageInspector.InspectorWindow.InitializeComponent()\n   at Rnwood.Smtp4dev.MessageInspector.InspectorWindow..ctor(SharpMimeMessage message)\n   at Rnwood.Smtp4dev.MainForm.InspectMessage(MessageViewModel message)\n   at Rnwood.Smtp4dev.MainForm.inspectButton_Click(Object sender, EventArgs e)\n   at System.Windows.Forms.Control.OnClick(EventArgs e)\n   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)\n   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)\n   at System.Windows.Forms.Control.WndProc(Message& m)\n   at System.Windows.Forms.ButtonBase.WndProc(Message& m)\n   at System.Windows.Forms.Button.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)\n \n \n************** Loaded Assemblies **************\nmscorlib\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/Microsoft.NET/Framework64/v2.0.50727/mscorlib.dll\n----------------------------------------\nsmtp4dev\n    Assembly Version: 2.0.4.39779\n    Win32 Version: 2.0.4.39779\n    CodeBase: file:///D:/appz/smtp4dev/smtp4dev.exe\n----------------------------------------\nSystem.Windows.Forms\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll\n----------------------------------------\nSystem\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\nSystem.Drawing\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll\n----------------------------------------\nSystem.Configuration\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll\n----------------------------------------\nSystem.Xml\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll\n----------------------------------------\nSystem.Core\n    Assembly Version: 3.5.0.0\n    Win32 Version: 3.5.30729.4926 built by: NetFXw7\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll\n----------------------------------------\nPresentationFramework\n    Assembly Version: 3.0.0.0\n    Win32 Version: 3.0.6920.4902 built by: NetFXw7\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/PresentationFramework/3.0.0.0__31bf3856ad364e35/PresentationFramework.dll\n----------------------------------------\nWindowsBase\n    Assembly Version: 3.0.0.0\n    Win32 Version: 3.0.6920.4902 built by: NetFXw7\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/WindowsBase/3.0.0.0__31bf3856ad364e35/WindowsBase.dll\n----------------------------------------\nPresentationCore\n    Assembly Version: 3.0.0.0\n    Win32 Version: 3.0.6920.4902 built by: NetFXw7\n    CodeBase: file:///C:/Windows/assembly/GAC_64/PresentationCore/3.0.0.0__31bf3856ad364e35/PresentationCore.dll\n----------------------------------------\nPresentationFramework.Aero\n    Assembly Version: 3.0.0.0\n    Win32 Version: 3.0.6920.4902 built by: NetFXw7\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/PresentationFramework.Aero/3.0.0.0__31bf3856ad364e35/PresentationFramework.Aero.dll\n----------------------------------------\n \n************** JIT Debugging **************\nTo enable just-in-time (JIT) debugging, the .config file for this\napplication or computer (machine.config) must have the\njitDebugging value set in the system.windows.forms section.\nThe application must also be compiled with debugging\nenabled.\n \nFor example:\n \n<configuration>\n    <system.windows.forms jitDebugging=\"true\" />\n</configuration>\n \nWhen JIT debugging is enabled, any unhandled exception\nwill be sent to the JIT debugger registered on the computer\nrather than be handled by this dialog box.",
+    "LastUpdatedDate": "2013-05-16T04:42:25.727-07:00",
+    "PlannedForRelease": "smtp4dev 2.0",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2010-01-05T11:24:34.743-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Crashing when inspecting email",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 3701
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'm seeing the same error on Windows 7 Pro.\r\n\r\nActual error message is: \r\n\r\n\"Cannot find type 'Microsoft.Windows.Controls.DataGrid'. The assembly used when compiling might be different than that used when loading and the type is missing.  Error at object 'System.Windows.Controls.TabItem' in markup file 'Smtp4dev;component/messageinspector/inspectorwindow.xaml'.\"\r\n\r\nException text is as above.",
+      "PostedDate": "2010-01-14T10:33:55.273-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-01-16T01:34:08.363-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-01-25T04:07:02.247-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have experienced the same problem on my Vista x64. \r\n\r\nThere is a simple workaround - get the sources and compile the application yourself.",
+      "PostedDate": "2010-01-25T22:41:14.63-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Sorry for the delay in responding to this issue.\r\n\r\nThis is an issue with the standalone binaries only. It appear to be down to my use of ILMERGE to merge all of the required assemblies into a single executable.\r\n\r\nI will provide an updated build which corrects this issue shortly.",
+      "PostedDate": "2010-01-26T14:36:37.683-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-03-01T07:53:21.487-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Apologies for delay in resolving this one. Latest commit uses an alternative packer to create the single portable executable. This fixes the problem. This will be included in next release which should occur shortly.",
+      "PostedDate": "2010-05-06T13:51:59.74-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-05-06T13:52:39.617-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I think this is no problem. Thank you very much for fixing this.",
+      "PostedDate": "2010-05-07T11:07:02.903-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-05-11T13:53:09.173-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:13.103-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:42:25.727-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "\"Show balloon notification notification\" option should be visibly exclusive to \"Automatically ... message\" in the Options dialog.\n \nsmtp4dev 2.0\nWindows 7 64-bit\n \nThe balloon notification does not appear if \"Automatically view message\" and\\or \"Automatically inspect message\" is checked.\n \nThis behavior is not intuitive just by looking at the Options dialog in the UI since the \"Show balloon notification\" checkbox is enabled in those cases.\n \nI expected that if at least one \"Automatically ... message\" checkbox is checked, then the \"Show balloon notification\" checkbox should then be automatically unchecked and disabled.\n \nEither that or really show the balloon notification on received messages regardless of the the \"Automatically ... message\" checkbox states.\n \nThank you.",
+    "LastUpdatedDate": "2013-02-21T17:30:09.073-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2011-01-05T19:24:44.11-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "\"Show balloon notification\" option should be visibly exclusive to \"Automatically ... message\" in the Options dialog",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6039
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

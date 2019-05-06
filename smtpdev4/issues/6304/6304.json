@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi.\n \nI cannot run smtp4dev.exe as Administrator during startup on Windows 7 Ultimate x64 because it is unsigned and UAC is turned on.\n \nThere are a couple of work-arounds:\n1. disable UAC\n2. sign smtp4dev.exe.\n3. use a third party utility that will launch smtp4dev.exe (maybe like hstart http://www.ntwind.com/software/utilities/hstart.html)",
+    "LastUpdatedDate": "2013-02-21T17:30:08.097-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "smtp4dev",
+    "ReportedDate": "2011-03-09T12:12:02.603-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "cannot run unsigned smtp4dev.exe as Administrator during startup on Windows 7 Ultimate x64 because of UAC",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6304
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'd like to solve this problem by getting a code signing certificate and signing the EXE as suggested. If anyone reading this would like this to happen then please consider donating some funds to the project so I can afford to do this.\r\n\r\nThanks\r\nRob",
+      "PostedDate": "2011-08-11T13:57:56.98-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-11T13:58:14.27-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T17:30:08.097-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

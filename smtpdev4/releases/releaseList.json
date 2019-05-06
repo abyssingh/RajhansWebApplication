@@ -1,0 +1,95 @@
+[
+  {
+    "Id": "0",
+    "Name": "smtp4dev 2.1 alpha 1",
+    "DevelopmentStatus": "Alpha",
+    "Description": "New features include:\n* *Message list searching:* The message list can be filtered based on the subject/to/from text.\n* *Error simulation:* The server can now simulate common error that can occur during message sending. This allows developers to test how their code will react.\n* *Messages now saved to a folder:* The messages are now saved to files instead of being kept in memory. This means that the application should cope with more and larger messages. The folder is configurable from the options dialog.\n* *Better session error handling:* Unexpected exceptions in a connection thread no longer crash the application. A notification is shown to the user and the exception details shown in the session log.\n\nPlease report all suggestions and issues to http://smtp4dev.codeplex.com/workitem/list/basic and I'll do my best to look at them.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-08-16T23:38:48.253-07:00",
+    "Files": [
+      {
+        "Id": "950d21ee-9eb6-46f0-90a1-26da2e7ccef1",
+        "FileName": "smtp4dev-2.1alpha1-binaries.zip",
+        "Url": "./0/950d21ee-9eb6-46f0-90a1-26da2e7ccef1",
+        "Type": "Application",
+        "UploadDate": "2011-08-16T23:38:13.397-07:00"
+      },
+      {
+        "Id": "135b46a6-a182-40f7-931e-cb8737772dc4",
+        "FileName": "smtp4dev-2.1alpha1.msi",
+        "Url": "./0/135b46a6-a182-40f7-931e-cb8737772dc4",
+        "Type": "Application",
+        "UploadDate": "2011-08-16T23:38:13.427-07:00"
+      },
+      {
+        "Id": "8b444bdb-cd4c-448f-8b54-7ef83fb06ffd",
+        "FileName": "smtp4dev-2.1alpha1-source.zip",
+        "Url": "./0/8b444bdb-cd4c-448f-8b54-7ef83fb06ffd",
+        "Type": "Application",
+        "UploadDate": "2011-08-16T23:38:13.553-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "smtp4dev 2.0.8",
+    "DevelopmentStatus": "Stable",
+    "Description": "Fixes parameter parsing issue #5557.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-08-02T13:51:55.197-07:00",
+    "Files": [
+      {
+        "Id": "ffc1d23f-440f-4059-be43-042e0813d6ab",
+        "FileName": "smtp4dev-2.0.8-binaries.zip",
+        "Url": "./1/ffc1d23f-440f-4059-be43-042e0813d6ab",
+        "Type": "Application",
+        "UploadDate": "2011-08-02T13:46:59.337-07:00"
+      },
+      {
+        "Id": "0835a257-ef1b-4595-a667-c5ef8e43a324",
+        "FileName": "smtp4dev-2.0.8.msi",
+        "Url": "./1/0835a257-ef1b-4595-a667-c5ef8e43a324",
+        "Type": "Application",
+        "UploadDate": "2011-08-02T13:51:54.663-07:00"
+      },
+      {
+        "Id": "5a3bf795-4c42-4014-9233-589afe19eeb9",
+        "FileName": "smtp4dev-2.0.8-source.zip",
+        "Url": "./1/5a3bf795-4c42-4014-9233-589afe19eeb9",
+        "Type": "Application",
+        "UploadDate": "2011-08-02T13:46:59.463-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "smtp4dev 2.0.9",
+    "DevelopmentStatus": "Stable",
+    "Description": "Fixes bug #7048 which causes the application to sometimes get into an infinate CPU/memory eating loop.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-08-11T23:53:50.1-07:00",
+    "Files": [
+      {
+        "Id": "92dcf4c4-12f6-4ed2-8efc-c7540b4c66a3",
+        "FileName": "smtp4dev-2.0.9-binaries.zip",
+        "Url": "./2/92dcf4c4-12f6-4ed2-8efc-c7540b4c66a3",
+        "Type": "Application",
+        "UploadDate": "2011-08-11T13:42:49.353-07:00"
+      },
+      {
+        "Id": "d0f63b9b-4c2f-4d8c-8135-994fa46f3059",
+        "FileName": "smtp4dev-2.0.9.msi",
+        "Url": "./2/d0f63b9b-4c2f-4d8c-8135-994fa46f3059",
+        "Type": "Application",
+        "UploadDate": "2011-08-11T13:47:33.607-07:00"
+      },
+      {
+        "Id": "f8e43862-2c81-4688-bf79-7448e5fd26cf",
+        "FileName": "smtp4dev-2.0.9-source.zip",
+        "Url": "./2/f8e43862-2c81-4688-bf79-7448e5fd26cf",
+        "Type": "Source Code",
+        "UploadDate": "2011-08-11T13:42:49.433-07:00"
+      }
+    ]
+  }
+]
