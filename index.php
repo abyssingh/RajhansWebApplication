@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Rajhans Real Estate</title>
+  <title>Rajhans Real Estate & Consultant</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -47,7 +47,7 @@
   <!--/ Carousel Star /-->
   <div class="intro intro-carousel">
     <div id="carousel" class="owl-carousel owl-theme">
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-1.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/newslide1.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -55,13 +55,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">Sector-38,Seawoods
+                      <br> </p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Mount
-                      <br> Olive Road Two</h1>
+                      <span class="color-b">Platinum Crescenzo </span> 
+                      <br> 2BHK & 3BHK</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">sell | Rs. 1.8 Cr*</span></a>
                     </p>
                   </div>
                 </div>
@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-2.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/newslide2.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -78,13 +78,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">Sector-9,Ulwe
+                      <br> Navi Mumbai</p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Rino
-                      <br> Venda Road Five</h1>
+                      <span class="color-b">Bhagwati </span> Imperia
+                      <br> 2BHK & 3BHK </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">sell | Rs. 1.1 Cr*</span></a>
                     </p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-3.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/newslide3.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -101,13 +101,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">Sector-23,Ulwe
+                      <br> Navi Mumbai </p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Alira
-                      <br> Roan Road One</h1>
+                      <span class="color-b">Bhagwati</span> Bellavisti 2
+                      <br> 1BHK </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">sell | Rs. 45 lakhs* </span></a>
                     </p>
                   </div>
                 </div>
@@ -140,42 +140,18 @@
                 <span class="fa fa-home"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Sell</h2>
+                <h2 class="title-c">Buy</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                Want to buy your home of your dreams. We could be your path maker. Bearing the 
+                torch guiding you for the perfect choice. We ensure you get best 
+                returns and rental as well
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
-                <span class="ion-ios-arrow-forward"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card-box-c foo">
-            <div class="card-header-c d-flex">
-              <div class="card-box-ico">
-                <span class="fa fa-usd"></span>
-              </div>
-              <div class="card-title-c align-self-center">
-                <h2 class="title-c">Loans</h2>
-              </div>
-            </div>
-            <div class="card-body-c">
-              <p class="content-c">
-                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a.
-              </p>
-            </div>
-            <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+              <a href="property-grid.php" class="link-c link-icon">Check Here
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -193,13 +169,38 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                Looking for a client to sell your property. We have many investors and end user
+                purchaser with us connected all round the year. 
+                We could provide a platform the showcase your property leading to
+                early sell out with best price.
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+              <a href="#" class="link-c link-icon">Check Here
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-home"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Rent</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Renting or Leasing your property to a good tenant who maintains your property 
+                and pays the rent on time. We have good franchise and showrooms tie-ups for your
+                commercial property.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Check Here
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -220,7 +221,7 @@
               <h2 class="title-a">Latest Properties</h2>
             </div>
             <div class="title-link">
-              <a href="property-grid.html">All Property
+              <a href="property-grid.php">All Property
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -231,19 +232,19 @@
         <div class="carousel-item-b">
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/property-6.jpg" alt="" class="img-a img-fluid">
+              <img src="img/crescenzo.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">206 Mount
-                      <br /> Olive Road Two</a>
+                    <a href="property-single.html">Platinum Crescenzo
+                      <br /> Sec-38,Seawoods</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">sell | Rs. 1.8 Cr*</span>
                   </div>
                   <a href="#" class="link-a">Click here to view
                     <span class="ion-ios-arrow-forward"></span>
@@ -251,24 +252,24 @@
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
-                    <li>
+                    <!--<li>
                       <h4 class="card-info-title">Area</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
-                    </li>
+                    </li>-->
                     <li>
                       <h4 class="card-info-title">Beds</h4>
                       <span>2</span>
                     </li>
                     <li>
                       <h4 class="card-info-title">Baths</h4>
-                      <span>4</span>
+                      <span>2</span>
                     </li>
-                    <li>
+                   <!-- <li>
                       <h4 class="card-info-title">Garages</h4>
                       <span>1</span>
-                    </li>
+                    </li>-->
                   </ul>
                 </div>
               </div>
@@ -278,19 +279,19 @@
         <div class="carousel-item-b">
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/property-3.jpg" alt="" class="img-a img-fluid">
+              <img src="img/imperia2.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">157 West
-                      <br /> Central Park</a>
+                    <a href="property-single.html">Bhagwati Imperia
+                      <br /> Sec-9,Ulwe </a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">sell | Rs. 1.1 Cr*</span>
                   </div>
                   <a href="property-single.html" class="link-a">Click here to view
                     <span class="ion-ios-arrow-forward"></span>
@@ -298,24 +299,24 @@
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
-                    <li>
+                   <!-- <li>
                       <h4 class="card-info-title">Area</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
-                    </li>
+                    </li>-->
                     <li>
                       <h4 class="card-info-title">Beds</h4>
                       <span>2</span>
                     </li>
                     <li>
                       <h4 class="card-info-title">Baths</h4>
-                      <span>4</span>
+                      <span>2</span>
                     </li>
-                    <li>
+                    <!--<li>
                       <h4 class="card-info-title">Garages</h4>
                       <span>1</span>
-                    </li>
+                    </li>-->
                   </ul>
                 </div>
               </div>
@@ -325,19 +326,19 @@
         <div class="carousel-item-b">
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/property-7.jpg" alt="" class="img-a img-fluid">
+              <img src="img/gajora.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">245 Azabu
-                      <br /> Nishi Park let</a>
+                    <a href="property-single.html">The Palm Oak
+                      <br /> Sec-16,Ulwe</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">sell | Rs. 45 Lakhs*</span>
                   </div>
                   <a href="property-single.html" class="link-a">Click here to view
                     <span class="ion-ios-arrow-forward"></span>
@@ -345,24 +346,24 @@
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
-                    <li>
+                   <!-- <li>
                       <h4 class="card-info-title">Area</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
-                    </li>
+                    </li>-->
                     <li>
                       <h4 class="card-info-title">Beds</h4>
-                      <span>2</span>
+                      <span>1</span>
                     </li>
                     <li>
                       <h4 class="card-info-title">Baths</h4>
-                      <span>4</span>
-                    </li>
-                    <li>
-                      <h4 class="card-info-title">Garages</h4>
                       <span>1</span>
                     </li>
+                   <!-- <li>
+                      <h4 class="card-info-title">Garages</h4>
+                      <span>1</span>
+                    </li>-->
                   </ul>
                 </div>
               </div>
@@ -372,19 +373,19 @@
         <div class="carousel-item-b">
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/property-10.jpg" alt="" class="img-a img-fluid">
+              <img src="img/krishna.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">204 Montal
-                      <br /> South Bela Two</a>
+                    <a href="property-single.html">Krishna Apartment
+                      <br /> Sec-3,Ulwe</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">sell | Rs. 45 Lakhs*</span>
                   </div>
                   <a href="property-single.html" class="link-a">Click here to view
                     <span class="ion-ios-arrow-forward"></span>
@@ -392,24 +393,24 @@
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
-                    <li>
+                   <!-- <li>
                       <h4 class="card-info-title">Area</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
-                    </li>
+                    </li>-->
                     <li>
                       <h4 class="card-info-title">Beds</h4>
-                      <span>2</span>
+                      <span>1</span>
                     </li>
                     <li>
                       <h4 class="card-info-title">Baths</h4>
-                      <span>4</span>
-                    </li>
-                    <li>
-                      <h4 class="card-info-title">Garages</h4>
                       <span>1</span>
                     </li>
+                   <!-- <li>
+                      <h4 class="card-info-title">Garages</h4>
+                      <span>1</span>
+                    </li>-->
                   </ul>
                 </div>
               </div>
@@ -422,7 +423,7 @@
   <!--/ Property End /-->
 
   <!--/ Agents Star /-->
-  <section class="section-agents section-t8">
+ <!-- <section class="section-agents section-t8">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -618,7 +619,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Agents End /-->
 
   <!--/ News Star /-->
@@ -631,7 +632,7 @@
               <h2 class="title-a">Latest News</h2>
             </div>
             <div class="title-link">
-              <a href="blog-grid.html">All News
+              <a href="#">All News
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>

@@ -256,28 +256,27 @@ if (mysqli_num_rows($result1) > 0) {
           </div>
           <div class="row">
             <div class="col-md-6 col-lg-4">
-              <img src="img/agent-4.jpg" alt="" class="img-fluid">
+              <img src="img/myphoto.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="property-agent">
                 <h4 class="title-agent">Abhishek Singh</h4>
                 <p class="color-text-a">
-                  Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-                  dui. Quisque velit nisi,
-                  pretium ut lacinia in, elementum id enim.
+                  Having a experience of more than 5 years in real estate,especially of Ulwe node of 
+                  Navi Mumbai. Expert in New Bookings,Prelaunch & Commercial Properties.
                 </p>
                 <ul class="list-unstyled">
                   <li class="d-flex justify-content-between">
                     <strong>Mobile 1:</strong>
-                    <span class="color-text-a">84 258 77 339</span>
+                    <span class="color-text-a">79 779 28 064</span>
                   </li>
                   <li class="d-flex justify-content-between">
                     <strong>Mobile 2:</strong>
-                    <span class="color-text-a">90 828 04 311</span>
+                    <span class="color-text-a">84 258 77 338</span>
                   </li>
                   <li class="d-flex justify-content-between">
                     <strong>Email:</strong>
-                    <span class="color-text-a">abhisheksingh9g@gmail.com</span>
+                    <span class="color-text-a">rajhansrealestate17@gmail.com</span>
                   </li>
                   <!-- <li class="d-flex justify-content-between">
                     <strong>Skype:</strong>
@@ -287,17 +286,17 @@ if (mysqli_num_rows($result1) > 0) {
                 <div class="socials-a">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#">
+                      <a href="https://www.facebook.com/rajhansrealestate/">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#">
+                      <a href="https://twitter.com/rajhansreal">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#">
+                      <a href="https://www.instagram.com/rajhans_real_estate/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>
@@ -386,7 +385,7 @@ if (isset($_POST["Submit"])) {
     //----------------- Mailing(guru99.com/php-mail.html) to check whether such email exist----------------
     // Setting in the php.ini + Ctrl+F(mail function)
 
-    $to = 'asingh1248@gmail.com';
+    $to = 'rajhansrealestate17@gmail.com';
     $Subject = 'Customer ';
     //Message From above
     $headers = "From:,$Email";

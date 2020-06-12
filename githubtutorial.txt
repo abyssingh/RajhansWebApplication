@@ -9,7 +9,7 @@ Step 4:git config --global user.name "user_name"
 
 Step 5 :git config --global user.email "email_id"
       
-
+/home/animesh/dumps/Dump20190507
 //*******************************************************   
    Phase 1:Creating Local Repository
     Step 1 : Go to Location:/opt/lampp/htdocs/EstateAgency
@@ -19,7 +19,7 @@ Step 5 :git config --global user.email "email_id"
     Step 3 :/opt/lampp/htdocs/EstateAgency$ git init 
         Initialized empty Git repository in /opt/lampp/htdocs/EstateAgency/.git/
 
-    Step 4:git add .
+    Step 4:git add .git
  
     Step 5:git status
         Message: On branch master This Sort of Message  ----This All Statging Area
@@ -41,7 +41,7 @@ Step 5 :git config --global user.email "email_id"
      Step 2:Pushing the Local Repository
        animesh@animesh-Inspiron-3521:/opt/lampp/htdocs/EstateAgency$ git push -u origin master
        Username for 'https://github.com': Asingh1248
-       Password for 'https://Asingh1248@github.com': 
+       Password for 'hc': 
 
        Explanation: Push Your Origin to Master branch
     

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Rajhans Real Estate</title>
+  <title>Rajhans Real Estate & Consultant</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -43,20 +43,19 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">EstateAgency</h3>
+              <h3 class="w-title-a text-brand">Rajhans Real Estate & Consultant</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
-                sed aute irure.
+               
               </p>
             </div>
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> contact@example.com</li>
+                  <span class="color-text-a">Phone .</span> 79 779 28 064</li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +54 356 945234</li>
+                  <span class="color-text-a">Email .</span> rajhansrealestate17@gmail.com</li>
               </ul>
             </div>
           </div>
@@ -95,27 +94,27 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">International sites</h3>
+              <h3 class="w-title-a text-brand">Places Where we Work</h3>
             </div>
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
+                  <i class="fa fa-angle-right"></i> <a href="https://en.wikipedia.org/wiki/Ulwe">Ulwe</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">China</a>
+                  <i class="fa fa-angle-right"></i> <a href="https://en.wikipedia.org/wiki/Dronagiri">Dronagiri</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
+                  <i class="fa fa-angle-right"></i> <a href="https://en.wikipedia.org/wiki/Seawoods%E2%80%93Darave_railway_station">Sea Woods</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
+                  <i class="fa fa-angle-right"></i> <a href="https://en.wikipedia.org/wiki/Taloja_Panchnand_railway_station">Taloja</a>
+                </li>
+                 <li class="item-list-a">
+                   <i class="fa fa-angle-right"></i> <a href="https://en.wikipedia.org/wiki/Nerul">Nerul</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
+                   <i class="fa fa-angle-right"></i> <a href="https://en.wikipedia.org/wiki/Sanpada_railway_station">Sanpada/Juinagar</a>
                 </li>
               </ul>
             </div>
@@ -131,49 +130,49 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="index.php">Home</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="about.php">About</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
+                <a href="property-grid.php">Property</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Blog</a>
+                <a href="blog-grid.php">Blog</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="contact.php">Contact</a>
               </li>
             </ul>
           </nav>
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/rajhansrealestate/">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://twitter.com/rajhansreal">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.instagram.com/rajhans_real_estate/">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+               <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCbsjSyczjk761fVgdqhZMDA">
+                  <i class="fa fa-youtube" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/company/rajhansrealestate">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
-              </li>
+              </li> 
             </ul>
           </div>
           <div class="copyright-footer">

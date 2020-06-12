@@ -17,7 +17,7 @@
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
             <h1 class="title-single">Contact US</h1>
-            <span class="color-text-a">Aut voluptas consequatur unde sed omnis ex placeat quis eos. Aut natus officia corrupti qui autem fugit consectetur quo. Et ipsum eveniet laboriosam voluptas beatae possimus qui ducimus. Et voluptatem deleniti. Voluptatum voluptatibus amet. Et esse sed omnis inventore hic culpa.</span>
+            <span class="color-text-a">Reach us out for the best experience in property dealings. We thrive for customer satisfaction. Transparency is the key to our superb dealings.</span>
           </div>
         </div>
         <div class="col-md-12 col-lg-4">
@@ -102,10 +102,10 @@
                   </div>
                   <div class="icon-box-content">
                     <p class="mb-1">Email.
-                      <span class="color-a">contact@example.com</span>
+                      <span class="color-a">rajhansrealestate17@gmail.com</span>
                     </p>
                     <p class="mb-1">Phone.
-                      <span class="color-a">+54 356 945234</span>
+                      <span class="color-a">+91 7977 92 8064</span>
                     </p>
                   </div>
                 </div>
@@ -120,8 +120,8 @@
                   </div>
                   <div class="icon-box-content">
                     <p class="mb-1">
-                      Manhattan, Nueva York 10036,
-                      <br> EE. UU.
+                      Shop No-6,Paradise Sai Fortune,Plot No-5
+                      <br> Sec-8B,Ulwe-410206
                     </p>
                   </div>
                 </div>
@@ -138,28 +138,28 @@
                     <div class="socials-footer">
                       <ul class="list-inline">
                         <li class="list-inline-item">
-                          <a href="#" class="link-one">
+                          <a href="https://www.facebook.com/rajhansrealestate/" class="link-one">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                           </a>
                         </li>
                         <li class="list-inline-item">
-                          <a href="#" class="link-one">
+                          <a href="https://twitter.com/rajhansreal" class="link-one">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                           </a>
                         </li>
                         <li class="list-inline-item">
-                          <a href="#" class="link-one">
+                          <a href="https://www.instagram.com/rajhans_real_estate/" class="link-one">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                           </a>
                         </li>
                         <li class="list-inline-item">
-                          <a href="#" class="link-one">
-                            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                          <a href="https://www.youtube.com/channel/UCbsjSyczjk761fVgdqhZMDA" class="link-one">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
                           </a>
                         </li>
                         <li class="list-inline-item">
-                          <a href="#" class="link-one">
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
+                          <a href="https://www.linkedin.com/company/rajhansrealestate" class="link-one">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
                           </a>
                         </li>
                       </ul>

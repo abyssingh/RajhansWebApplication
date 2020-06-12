@@ -156,6 +156,7 @@ if (mysqli_num_rows($result2) > 0) {
         $Description = $row["Description"];
 
         $image = 'img/' . $row["image"];
+        //echo $image
         ?>
           <!-- <section class="property-grid grid"> -->
           <div class="col-md-4">

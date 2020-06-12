@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-            <h1 class="title-single">We Do Great Design For Creative Folks</h1>
+            <h1 class="title-single">Dealing With Transparency</h1>
           </div>
         </div>
         <div class="col-md-12 col-lg-4">
@@ -45,30 +45,30 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="about-img-box">
-            <img src="img/slide-about-1.jpg" alt="" class="img-fluid">
+            <img src="img/about.jpg" alt="" class="img-fluid">
           </div>
-          <div class="sinse-box">
-            <h3 class="sinse-title">EstateAgency
+          <!--<div class="sinse-box">
+            <h3 class="sinse-title">Rajhans Real Estate & Consultant
               <span></span>
-              <br> Sinse 2017</h3>
-            <p>Art & Creative</p>
-          </div>
+              <br> Since 2010</h3>
+            <p></p>
+          </div>-->
         </div>
         <div class="col-md-12 section-t8">
           <div class="row">
             <div class="col-md-6 col-lg-5">
-              <img src="img/about-2.jpg" alt="" class="img-fluid">
+              <img src="img/myphoto.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-lg-2  d-none d-lg-block">
               <div class="title-vertical d-flex justify-content-start">
-                <span>EstateAgency Exclusive Property</span>
+                <span></span>
               </div>
             </div>
             <div class="col-md-6 col-lg-5 section-md-t3">
               <div class="title-box-d">
-                <h3 class="title-d">Sed
-                  <span class="color-d">porttitor</span> lectus
-                  <br> nibh.</h3>
+                <h3 class="title-d">The 
+                  <span class="color-d">Brain</span> Behind the 
+                  <br> Company</h3>
               </div>
               <p class="color-text-a">
                 Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget
@@ -92,13 +92,13 @@
   <!--/ About End /-->
 
   <!--/ Team Star /-->
-  <section class="section-agents section-t8">
+ <!-- <section class="section-agents section-t8">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Meet Our Team</h2>
+              <h2 class="title-a">The Brain behind the Company</h2>
             </div>
           </div>
         </div>
@@ -242,9 +242,9 @@
                 </p>
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945234</p>
+                    <strong>Phone: </strong>79 779 28 064 </p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>Email: </strong>rajhansrealestate17@gmail.com </p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -283,7 +283,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Team End /-->
   <?php 
     include_once 'footer1.php';

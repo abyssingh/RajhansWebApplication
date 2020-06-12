@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Rajhans Real Estate</title>
+  <title>EstateAgency Bootstrap Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
   <script src="SearchProperty.js"> </script>
 
   <!-- Favicons -->
@@ -35,10 +34,10 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-
 <body>
+<ul>
 
-  <div class="click-closed"></div>
+<div class="click-closed"></div>
   <!--/ Form Search Star /-->
   <div class="box-collapse">
     <div class="title-box-d">
@@ -168,6 +167,7 @@
   </div>
   <!--/ Form Search End /-->
 
+
   <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
@@ -176,13 +176,16 @@
         <span></span>
         <span></span>
         <span></span>
-      </button> 
-      <a class="navbar-brand text-brand" href="index.php" style="font-size:20px">Rajhans<span class="color-b" style="font-size:16px">RealEstate</span></a>
+      </button>
+      <a class="navbar-brand text-brand" href="index.php">Rajhans<span class="color-b">Agency</span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
       </button>
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      
+        
+
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" href="index.php">Home</a>
@@ -193,9 +196,9 @@
           <li class="nav-item">
             <a class="nav-link" href="property-grid.php">Property</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Blog</a>
-          </li> -->
+           <li class="nav-item">
+            <a class="nav-link" href="blog-grid.php">Blog</a>
+          </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -211,28 +214,42 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact</a>
           </li>
-        </ul> 
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Search>
+          </li>
+        </ul>  -->
       </div>
       <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
+        <!-- <span class="fa fa-search" aria-hidden="true"></span> -->
+        <h6>SearchProperty<h6>
       </button>
     </div>
   </nav>
   <!--/ Nav End /-->
-<!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div> -->
+ <!-- JavaScript Libraries -->
 
-  <!-- JavaScript Libraries -->
+ 
+ <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script> 
+  <!-- <script src="lib/bootstrap/js/bootstrap.min.js"></script>--> --> <!-- Because of Footer it was not closin navigation togge in mobile -->
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script> 
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
   <!-- Contact Form JavaScript File -->
 
   <!--/ Nav End /-->
+ 
+
+
+
 </body>
 </html>
