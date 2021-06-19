@@ -71,17 +71,17 @@
                   <br> Company</h3>
               </div>
               <p class="color-text-a">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget
-                consectetur sed, convallis
-                at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                Abhishek Singh is a very dynamic person. He has very core belief for ultimate customer satisfaction and service.
+                Completed his Bachelor Of Engineering in Electronics & Telecommunications from Mumbai University in 2020. A very passionate
+                and curious individual from an early age of 17 in real estate.
               </p>
               <p class="color-text-a">
-                Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed,
-                convallis at tellus.
+                He is into real estate from the year 2015 and occassionaly visiting his father Sharda Singh's office in Ulwe. This visit made real estate intersting to him and he started doing rental and sale deals.
+                Being young and enthusiastic and always ready to serve his customer with full energy giving best of deals and advice.
+                He has aim to make the affordable housing segment and mid range budget homes real estate industry to be more professional.
+                Bringing world class consultation to each and every customer, to make wise decision to invest or buy home for end use. 
+                Also great focus is being made to bring commercial real estate investment viable to small investors and customers.
+
               </p>
             </div>
           </div>

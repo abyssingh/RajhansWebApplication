@@ -176,7 +176,7 @@
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Check Here
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlxVUl8csyDbOF3oiKZVpKwTKEuCm3_Zq2MakCXKD8FwUvuw/viewform" target="_blank" class="link-c link-icon">Check Here
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -200,7 +200,7 @@
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Check Here
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9tYIyUUMRRQP30Z1Zwf-oRrcR5rr1wPSBLDHa5yloDgqaqQ/viewform" target="_blank" class="link-c link-icon">Check Here
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -622,7 +622,7 @@
   </section>-->
   <!--/ Agents End /-->
 
-  <!--/ News Star /-->
+  <!--/ News Star /
   <section class="section-news section-t8">
     <div class="container">
       <div class="row">
@@ -734,7 +734,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> /-->
   <!--/ News End /-->
 
   <!--/ Testimonials Star /-->
@@ -755,7 +755,7 @@
             <div class="row">
               <div class="col-sm-12 col-md-6">
                 <div class="testimonial-img">
-                  <img src="img/testimonial-1.jpg" alt="" class="img-fluid">
+                  <img src="img/testimonial-1.jpeg" alt="" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-12 col-md-6">
@@ -764,14 +764,12 @@
                 </div>
                 <div class="testimonials-content">
                   <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                    debitis hic ber quibusdam
-                    voluptatibus officia expedita corpori.
+                  Rajhans Real Estate & Consultant have provided the best of service. They were responsive, proactive and attended to queries and needs. Abhishek is pleasant to deal with and They helped us with the best choice to make and get the price possible. Abhishek also assisted me to choose the best loan option.  Highly recommended!
                   </p>
                 </div>
                 <div class="testimonial-author-box">
-                  <img src="img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                  <h5 class="testimonial-author">Albert & Erika</h5>
+                  <img src="img/mini-testimonial-1.jpeg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Priya & Vickant Singh</h5>
                 </div>
               </div>
             </div>
@@ -782,7 +780,7 @@
             <div class="row">
               <div class="col-sm-12 col-md-6">
                 <div class="testimonial-img">
-                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
+                  <img src="img/testimonial-2.JPG" alt="" class="img-fluid">
                 </div>
               </div>
               <div class="col-sm-12 col-md-6">
@@ -791,14 +789,14 @@
                 </div>
                 <div class="testimonials-content">
                   <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                    debitis hic ber quibusdam
-                    voluptatibus officia expedita corpori.
+                  We were looking for a perfect home in Ulwe. But we need to sell our house first to purchase a bigger one. 
+                  Abhishek helped us to sell our flat at the best prices above that we also got a great deal for a beautiful premium apartment in one of the finest projects in Ulwe. 
+                  He made it through so smoothly like a piece of cake.
                   </p>
                 </div>
                 <div class="testimonial-author-box">
-                  <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                  <h5 class="testimonial-author">Pablo & Emma</h5>
+                  <img src="img/mini-testimonial-2.JPG" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Sarang Pandit</h5>
                 </div>
               </div>
             </div>

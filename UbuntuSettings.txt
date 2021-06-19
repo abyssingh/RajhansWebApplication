@@ -24,3 +24,6 @@ sudo cp /home/animesh/Downloads/ngrok-stable-linux-amd64/ngrok /bin  --Advait En
 chmod +a-rwx 
 
 
+//*********************************
+
+File Explorer -->other locations-->Computer-->lampp-->htdocs

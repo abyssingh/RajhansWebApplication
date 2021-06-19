@@ -177,7 +177,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.php">Rajhans<span class="color-b">Agency</span></a>
+      <a class="navbar-brand text-brand" href="index.php">Rajhans<span class="color-b"> Real Estate</span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
@@ -188,7 +188,7 @@
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="index.php">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.php">About</a>
@@ -196,9 +196,9 @@
           <li class="nav-item">
             <a class="nav-link" href="property-grid.php">Property</a>
           </li>
-           <li class="nav-item">
+           <!--<li class="nav-item">
             <a class="nav-link" href="blog-grid.php">Blog</a>
-          </li>
+          </li>-->
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -223,7 +223,7 @@
       <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <!-- <span class="fa fa-search" aria-hidden="true"></span> -->
-        <h6>SearchProperty<h6>
+        <h6>Search Property<h6>
       </button>
     </div>
   </nav>
